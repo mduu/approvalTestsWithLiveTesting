@@ -13,6 +13,8 @@ Shows the issue of ApprovalTests .Net with VS 2019 Live-Testing
 
 ## Assumption
 
-I guess the problem is with ApprovalTest .Net together with VS Live-Testing and maybe XUnit.
+I guess the problem is with ApprovalTest.Net together with VS Live-Testing, Async and maybe XUnit.
 It looks like the test gets copied into a temporary directory but not the approved files.
 This also happens if one marks the approved file for "always copy".
+
+**Important:** It seems to happen only for async tests!
